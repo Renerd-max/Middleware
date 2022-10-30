@@ -1,15 +1,16 @@
 {
-  "name": "06tut",
+  "name": "middleware",
   "version": "1.0.0",
-  "description": "Express tutorial",
+  "description": "Middleware tutorial",
   "main": "server.js",
   "scripts": {
     "start": "node server",
     "dev": "nodemon server"
   },
-  "author": "Dave Gray",
+  "author": "Renerd Liam",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "date-fns": "^2.23.0",
     "express": "^4.17.1",
     "uuid": "^8.3.2"
